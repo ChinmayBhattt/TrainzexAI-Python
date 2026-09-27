@@ -20,7 +20,18 @@ two values - a, b
 1. error
 2. excute
 
-
 4. even numbers 2, 4, 6, 8
 
 for loop use even number print
+
+5. 1) Match Case - Traffic light
+req: input()
+
+- RED, orange, green
+
+2) Week Days - monday, tue, -- sunday using match case
+
+3)  match case : input(1 or 2)
+case 1: if else print avg(8+4/2)
+case 2: if else sum(5+10)
+case _:

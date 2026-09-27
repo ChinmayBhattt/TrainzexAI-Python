@@ -15,3 +15,9 @@ for i in range(5): # Starting - 0 , 1, 2, 3, 4 , n-1
 # n - 1 # 3 - 1 = 2
 # n - 1 # 2 - 1 = 1
 # n - 1 # 1 - 1 = 0
+
+
+i = 1
+while i <= 10:
+  print(i)
+  i += 1
