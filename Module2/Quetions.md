@@ -84,3 +84,36 @@ tuple3 = [tuple1, tuple2]
 
 True
 False
+
+8.
+
+- Inside the editor, complete the following steps:
+1. Create a set called colors with the values "red", "green", "blue"
+Print the set
+Add "yellow" to the set using add()
+Remove "green" from the set using discard()
+Print the number of items using len()
+
+9. https://www.w3schools.com/python/exercise.asp?x=xrcise_sets1
+https://www.w3schools.com/python/python_dictionaries_access.asp
+
+10. Inside the editor, complete the following steps:
+Create a dictionary called car with the keys "brand", "model", "year" and values "Ford", "Mustang", 2024
+Print the value of the "model" key
+Add a new key "color" with the value "red"
+Remove the "brand" key using pop()
+Print the dictionary
+
+
+11. What is the correct keyword for defining functions in Python?
+
+function
+func
+def
+
+12. https://www.w3schools.com/python/python_arguments.asp
+13. https://www.w3schools.com/python/python_decorators.asp
+
+14. https://www.w3schools.com/python/python_lambda.asp
+
+15. https://www.w3schools.com/python/python_modules.asp
