@@ -43,10 +43,10 @@
 # -----# -----# -----# -----# -----# -----# -----
 
 
-f = open("myfile2.txt", 'w')
-lines = ['line 1\n','line 2\n','line 3\n']
-f.writelines(lines)
-f.close()
+# f = open("myfile2.txt", 'w')
+# lines = ['line 1\n','line 2\n','line 3\n']
+# f.writelines(lines)
+# f.close()
 # ____________________ os ____________________
 
 
@@ -107,3 +107,148 @@ f.close()
 # # Linux/mac absolute path
 # p3 = Path("/home/amar/doc")
 # print (p3)
+
+# file = open("students.csv", "r")
+# data = file.read()
+# print(data)
+# file.close()
+
+
+# ____________________ CSV ____________________
+
+# 1\. CSV (Comma-Separated Values): CSV is a file format used to store tabular data in rows and columns, where values are typically separated by commas. In Python, the built-in `csv` module is used to read and write CSV files.
+
+# 2\. JSON (JavaScript Object Notation): JSON is a lightweight data-interchange format used to store and exchange structured data using key-value pairs and arrays. In Python, the built-in `json` module is used to read, write, and process JSON data.
+
+# file = open("students.csv", "r")
+# data = file.read()
+# print(data)
+# file.close()
+
+# with open("students.csv", "r") as file:
+#     data = file.read()
+#     print(data)
+
+# import csv
+
+# with open('students.csv', 'w', newline='') as file:
+#     writer = csv.writer(file)
+
+#     writer.writerow(["name", "age", "branch"])
+#     writer.writerow(["Chinmay", 20, "AI"])
+#     writer.writerow(["Gautam", 21, "CSE"])
+#     writer.writerow(["Harsh", 20, "IT"])
+
+# with open('students.csv', 'r', newline='') as file:
+#     reader = csv.reader(file)
+#     for row in reader:
+#         print(row)
+
+
+
+# import csv
+
+# with open("student.csv", "r", newline="") as file:
+#     reader = csv.DictReader(file)
+
+#     for student in reader:
+#         print(student["name"], student["marks"])
+        
+
+
+# import csv
+
+# fields = ["id", "name", "marks"]
+
+# student = {"id": 4, "name": "Rahul", "marks": 88}
+
+# with open("students.csv", "a", newline="") as file:
+#     writer = csv.DictWriter(file, fieldnames=fields)
+#     writer.writerow(student)
+
+
+
+# import csv
+
+# with open("students.csv", "r", newline="") as file:
+#     reader = csv.DictReader(file)
+
+#     for student in reader:
+#         if student["id"] == "2":
+#             print(student)
+#             break
+
+
+# import csv
+
+# total = 0
+# count = 0
+
+# with open("students.csv", "r", newline="") as file:
+#     reader = csv.DictReader(file)
+
+#     for student in reader:
+#         total += float(student["marks"])
+#         count += 1
+
+# if count > 0:
+#     print("Average:", total / count)
+# else:
+#     print("No student records found")
+
+
+
+# ____________________ JSON processing ____________________
+
+
+# import json
+
+# student = {
+#     "id": 1,
+#     "name": "Chinmay",
+#     "marks": 85,
+#     "passed": True
+# }
+
+# with open("myjson.json", "w") as file:
+#     json.dump(student, file, indent=4)
+
+
+# with open("student.json", "r") as file:
+#     student = json.load(file)
+
+# print("\n")
+
+# print(student)
+# print("\n")
+
+# print(student["name"])
+# print(student["marks"])
+# print(student["passed"])
+# print("\n")
+
+# json.load(file)
+# JSON file → Python object
+# data = json.load(file)
+
+# json.dump(data, file)
+# Python object → JSON file
+# json.dump(data, file, indent=4)
+
+
+
+# student = {
+#     "name": "Chinmay",
+#     "college": {
+#         "name": "Arya College",
+#         "city": "Jaipur"
+#     },
+#     "skills": ["Python", "AI", "Web"]
+# }
+
+# print(student["college"]["city"])
+# print(student["skills"][0])
+
+
+# data - mongodb - json 
+# json data store easy, 

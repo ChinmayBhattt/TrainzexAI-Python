@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Chinmay",
+        "marks": 85,
+        "skills": ["Python", "AI"]
+    },
+    {
+        "id": 2,
+        "name": "Gautam",
+        "marks": 90,
+        "skills": ["Java", "SQL"]
+    },
+
+    {
+        "id": 1,
+        "name": "Chinmay",
+        "marks": 85,
+        "skills": ["Python", "AI"]
+    },
+
+    {
+        "id": 2,
+        "name": "Gautam",
+        "marks": 90,
+        "skills": ["Java", "SQL"]
+    }
+]
