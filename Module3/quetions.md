@@ -27,3 +27,17 @@ age = "20"
 print(age + 5) # no ?:
 
 uv pacakge explore
+
+
+
+
+work:
+p = Path(r"/Users/chinmaybhatt/Python/check")
+# p.rename("new.txt")
+
+p.unlink(missing_ok=True)
+
+# p = Path(r"D:\python\Unit14\Code\1.txt")
+# p.rmdir()
+
+shutil.rmtree()
