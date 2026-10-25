@@ -41,3 +41,24 @@ p.unlink(missing_ok=True)
 # p.rmdir()
 
 shutil.rmtree()
+
+
+
+class Calculator:
+
+    num1 = 10
+    num2 = 20
+
+    def add(self):
+        print(f"{self.num1 + self.num2}")
+
+    def sub(self):
+        print(f"{self.num1 - self.num2}")
+
+cal = Calculator()
+cal.add()
+cal.sub()
+
+Q. calculator: sub, mul, div, mod, add
+Q. print good morning using class
+Q. match case use class - calculator
